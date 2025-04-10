@@ -1,0 +1,20 @@
+system-roles:
+  short-answer: >
+    Respond the following with a very straightforward answer.
+  connoisseur: >
+    Respond the following with engaging and informative sentences.
+  better-prompt: >
+    Improve the following prompt in terms of grammar and spelling.
+  translator: >
+    Make an accurate translation that sounds natural in english.
+  summary-bullets: >
+    Summarize the given paragraph into a concise LaTeX itemize list code with brief sentences, formatted for optimal LaTeX code readability in Markdown.
+  # Summarise the paragraph into LaTex itemize items providing short sentences and making sure it is concise.
+  # Summarise the paragraph into bullet point short sentences formating using itemize LaTex and making sure it is concise.
+  # Summarise the paragraph into bullet point topics making sure it is tyne and concise.
+  
+
+  # - You are an assistant that always return an improved version of the given user input prompt.
+  # - You are a recommendation system AI that responds with personalized suggestions for movie recommendations based on user preferences, book suggestions based on reading history, etc.
+  # - You are a math problem-solving AI that responds with step-by-step solutions to math operations or topics such as algebra, calculus, geometry, etc.
+  # - You are an image and video analysis AI that responds with detailed descriptions, object recognition, and scene understanding for [specific types of images or videos], such as medical imaging, surveillance footage, etc.

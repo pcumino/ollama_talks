@@ -1,0 +1,41 @@
+Describe the 20-80 pareto rule
+
+Adjust the following prompt: "The 20-80 Pareto Rule is a powerful principle that highlights the importance of focusing on the most critical elements to achieve significant results with minimal effort. Considering this rule, list the minimal technical requirements to have a passive income with online courses on the internet."
+
+Adjust the following prompt by specifying that the area is the development of micro SaaS with AI integration: “Applying the 20-80 Pareto Rule, identify the essential technical components that enable successful creation and monetization of online courses for passive income. What are the top 20% of technical requirements that yield 80% of the results? Provide a concise list of the most critical elements to focus on, minimizing the effort required to achieve significant returns from your online course-based passive income stream.”
+
+Make it more objective: "Applying the 20-80 Pareto Rule to micro SaaS development with AI integration, identify the essential technical components that enable successful creation and monetization of micro SaaS applications for passive income. What are the top 20% of technical requirements that yield 80% of the results? Provide a concise list of the most critical elements to focus on, minimizing the effort required to achieve significant returns from your AI-powered micro SaaS application-based passive income stream."
+
+AI and Micro SaaS Development: Prioritizing essential technical components for successful creation and monetization. Identify the top 20% of technical requirements that drive 80% of results in micro SaaS application development with AI integration, aimed at generating passive income streams. What are the most critical elements to focus on, minimizing the effort required to achieve significant returns from an AI-powered micro SaaS application-based passive income stream?
+
+Improve the following prompt: "What are the top 20% of technical requirements that yield 80% of the results to develop a excellent programming course nowadays?"
+
+How can backend development knowledge benefits a regular person nowadays?
+
+How can backend development knowledge benefits the daily life of a regular person nowadays?
+
+How do the technical skills learned from backend development translate to everyday life, potentially leading to improvements to the daily life of a regular person nowadays?
+
+Can you illustrate how the technical skills and problem-solving strategies developed through backend development can be applied in various aspects of everyday life, such as personal finance management, time organization, focus improvement, developing new healthy habits, or even the use of AI? For instance, how do programming concepts like data structures, algorithms, and API integrations translate to real-world benefits, such as streamlining daily routines, optimizing decision-making, or enhancing overall productivity?
+
+Consider the following statement: "Backend development skills can be incredibly useful in everyday life. For personal finance, you can build a budgeting tool that categorizes expenses and automates bill payments using APIs from banks. For daily routines, algorithms can help create optimized schedules that prioritize important tasks. To stay focused, you can design a system that blocks distractions based on time of day or task urgency. For habit tracking, integrating wearable data with a backend system can help analyze patterns and send reminders. Automating repetitive tasks—like sorting emails, generating reports, or setting smart reminders—saves time and boosts productivity. Debugging skills help identify inefficiencies in your routine, while scalability concepts teach how to handle increasing responsibilities without burning out. Overall, backend thinking makes life more efficient, structured, and data-driven.". Provide a list of topics for such a course including the required backend technical skills.
+
+Gere um nome engraçado para grupo de whatsapp com pessoas da mesma família rumo a Paris, França.
+
+
+
+Fix the following bash command so it does not output every char in a new line. Instead, it outputs the found chars in a single line: cat temp.html | grep -iEo "<h1.*<\/h1" | grep -iEo ">.*<" | grep -iEo "([a-z]|[0-9]|\n| |\-)"
+
+
+How to create a list using bash containing every list of a file called "list.txt"? The idea is to execute a custom command through a for loop of this list. Put in a bash script file.
+
+
+Improve the following question: "Does it means that these energy metrics shall be send only to energy-saving strategies that manages transmission power or other radio related?"
+
+Improve the following question: "What are the energy-saving strategies being imagined in this context?"
+
+Improve the following statement: "The radio consumption is expected to be the highest consumption in a gNB node, that's why these metrics are collected from the RU. However, UAVs as BS presents an additional [???], which might consume even more energy than the radio related components, that is the flight mechanical components."
+
+This is an AI system configuration prompt: "You are an AI assistant that respond an improved version of every user input prompts.". List other system prompts for other 5 roles that an AI can perform.
+
+Give a name for this role: assistant that respond an improved version of every user input prompts.

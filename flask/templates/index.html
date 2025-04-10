@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="author" content="Pedro Cumino" />
+	<link rel="shortcut icon" type="image/ico" href="{{ url_for('static', filename='favicon1.ico') }}">
+	<title>{{ title }}</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+	<h3>{{ title }}</h3>
+
+	<div id="response" hidden={% if not response %}true{% endif %}>{{ response }}</div>
+
+	<form id="ask" action="ask" method="POST">
+		<div id="chat">
+			<textarea id="prompt" name="prompt" rows="7" cols="100" placeholder="Write your prompt here"></textarea>
+			<div id="models-options">
+				<table>
+					<tr>
+						<!-- <td>Available models:</td> -->
+						<td>
+							{% for i in models %}
+								<input type="radio" id="{{ i }}" name="models" value="{{ i }}" {% if i==models[0] %}checked{% endif %}>
+								<label for="{{ i }}">{{ i }}</label>
+							{% endfor %}
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div id="agents">
+				{% for i in agents %}
+					<input type=submit name="agent" class="agent" id="{{ i }}" value="{{ i.title() }}">
+					<span for="{{i}}" class="agent-description" hidden>{{agents[i]}}</span>
+				{% endfor %}
+			</div>
+		</div>
+	</form>
+</body>
+<script src="{{ url_for('static', filename='js/bootstrap.min.js')}}"></script>
+<script src="{{ url_for('static', filename='js/marked.min.js')}}"></script>
+<script src="{{ url_for('static', filename='js/jquery-3.5.1.js')}}"></script>
+<script src="{{ url_for('static', filename='js/main.js')}}"></script>
+</html>
+
