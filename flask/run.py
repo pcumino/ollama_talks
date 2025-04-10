@@ -8,7 +8,7 @@ setup_routes(app)
 def main(argv):
     parser = argparse.ArgumentParser(description='Flask server')
 
-    parser.add_argument('server', help='Host server address.', nargs='?', default='10.0.22.12')
+    parser.add_argument('server', help='Host server address.', nargs='?', default='127.0.0.1')
     parser.add_argument('port', help='Host port number.', nargs='?', default='9100')
     parser.add_argument('-d', '--debug', help='Debug mode.', nargs='?', type=bool, const=True, default=False)
 
