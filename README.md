@@ -50,6 +50,7 @@ pip install ollama
 
 1. Start the Flask server:
 ```bash
+cd flask
 python run.py
 ```
 
